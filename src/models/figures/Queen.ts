@@ -3,8 +3,8 @@ import { Colors } from "../Colors";
 import { Cell } from "../Cell";
 import { FigureNames } from "./Figure";
 
-import whiteLogo from "../../../assets/white-queen.png";
-import blackLogo from "../../../assets/black-queen.png";
+import whiteLogo from "../../assets/white-queen.png";
+import blackLogo from "../../assets/black-queen.png";
 
 export class Queen extends Figure {
   constructor(color: Colors, cell: Cell) {
