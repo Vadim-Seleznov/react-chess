@@ -39,3 +39,7 @@
   height: 48px;
   position: relative;
 }
+
+.selected {
+  background-color: burlywood;
+}
