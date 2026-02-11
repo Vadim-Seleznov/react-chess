@@ -2,3 +2,5 @@
 
 <img width="1615" height="735" alt="image" src="https://github.com/user-attachments/assets/79cf6540-d04d-4e72-8aab-ba34906f7d69" />
 
+## TODO:
+Win logic - now you can not win the game
