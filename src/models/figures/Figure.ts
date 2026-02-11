@@ -29,6 +29,16 @@ export class Figure {
   }
 
   canMove(target: Cell): boolean {
+    console.log("Full coords:", {
+      fromX: this.cell.x,
+      fromY: this.cell.y,
+      toX: target.x,
+      toY: target.y,
+    });
+
+    if (target.figure?.color === this.color) return false;
+    if (target.figure?.name === FigureNames.KING) return false;
+
     return true;
   }
 
